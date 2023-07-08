@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&display=swap');
+.main-container{
+	margin: 0;
+	padding: 0;
+	height: 75vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.CartContainer{
+
+	height: 80%;
+    margin-bottom: 0.8rem;
+	background-color: #ffffff;
+    border-radius: 20px;
+    overflow-y: scroll;
+    box-shadow: 0px 10px 20px #1687d933;
+}
+
+.Header{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Heading{
+	font-size: 20px;
+	font-weight: 700;
+	color: #2F3841;
+    font-family: 'Dancing Script', cursive;
+font-family: 'PT Sans', sans-serif;
+
+}
+
+.Action{
+	font-size: 14px;
+	font-weight: 600;
+	color: #E44C4C;
+	cursor: pointer;
+	border-bottom: 1px solid #E44C4C;
+}
+
+.Cart-Items {
+    margin: auto;
+    width: 90%;
+    box-shadow: 0px 10px 20px #1687d933;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.image{
+    height: 150px;
+    width: 250px;
+    border-radius: 1rem;
+    
+}
+.about{
+	height: 100%;
+	width: 24%;
+}
+.title{
+	text-transform: capitalize;
+	font-size: 1rem;
+	
+}
+.subtitle{
+	font-size: 18px;
+	font-weight: 600;
+	color: #909090;
+}
+
+.counter{
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.count{
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}
+
+.prices{
+	height: 100%;
+	text-align: right;
+}
+.amount{
+
+	font-size: 1rem;
+	font-weight: 800;
+	color: #202020;
+}
+.save{
+	padding-top: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1687d9;
+	cursor: pointer;
+}
+.remove{
+	padding-top: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #E44C4C;
+    background-color: white;
+    border: none;
+	cursor: pointer;
+}
+
+.pad{
+	margin-top: 5px;
+}
+
+hr{
+	width: 66%;
+	float: right;
+	margin-right: 5%;
+}
+.checkout{
+	float: right;
+	margin-right: 5%;
+	width: 28%;
+    font-family: 'Dancing Script', cursive;
+font-family: 'PT Sans', sans-serif;
+}
+.total{
+	width: 100%;
+    margin-left: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.Subtotal{
+	font-size: 22px;
+	font-weight: 700;
+	color: #202020;
+}
+.items{
+	font-size: 16px;
+	font-weight: 500;
+	color: #909090;
+}
+.total-amount{
+	font-size: 36px;
+	font-weight: 900;
+	color: #202020;
+}
+.button{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	color: #202020;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+font-family: 'PT Sans', sans-serif;
+}

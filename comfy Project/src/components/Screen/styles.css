@@ -1,0 +1,237 @@
+.section-featured {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.featured-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.products-container {
+    display: grid;
+    grid-gap: 1rem;
+    width: 70vw;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+
+.product-container {
+    position: relative;
+}
+
+.single-product {
+    padding: 2rem 0;
+}
+.single-product-center {
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem auto;
+    display: grid;
+    gap: 1rem 2rem;
+}
+
+.single-product-img {
+    height: 25rem;
+    border-radius: 0.25rem;
+    object-fit: cover;
+    padding-top: 2.5rem;
+}
+
+.single-product-company {
+    font-size: 1.2rem;
+    color: hsl(210, 31%, 80%);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.25rem;
+}
+h2{
+    line-height: 1;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+}
+.single-product-price {
+    color:black;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.single-product-title{
+    text-transform:capitalize;
+}
+.img {
+    width: 100%;
+    display: block;
+}
+.single-product-desc {
+    max-width: 25em;
+    line-height: 1.8;
+}
+p {
+    margin-bottom: 1.25rem;
+    color: hsl(210, 22%, 49%);
+}
+.product-color {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: #222;
+    margin: 0.5rem 0.5rem 1.5rem 0;
+}
+.product-img {
+    object-fit: cover;
+    display: block;
+    height: 10rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.footer {
+    padding: 0.75rem 0;
+    text-align: center;
+}
+
+.product-name {
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    color: hsl(210, 22%, 49%);
+}
+
+.product-price {
+    margin-bottom: 0;
+    color: hsl(209, 34%, 30%);
+    font-weight: 700;
+}
+
+.btn {
+    background: hsl(21, 62%, 45%);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.275rem 0.75rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: hsl(21, 80%, 74%);
+    color: black;
+}
+.products {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 1rem;
+    margin: 4rem auto;
+    max-width: 1170px;
+    position: relative;
+}
+
+.filters-container {
+    position: sticky;
+    top: 1rem;
+}
+
+form {
+    display: block;
+}
+
+.search-input {
+    padding: 0.5rem;
+    background: hsl(210, 36%, 96%);
+    border-radius: 0.5rem;
+    border-color: transparent;
+    letter-spacing: 0.1rem;
+}
+
+.filters h4 {
+    font-weight: 500;
+    margin: 1.5rem 0 0.5rem;
+}
+
+.company-btn {
+    display: block;
+    margin: 0.25em 0;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    background: transparent;
+    border-color: transparent;
+    letter-spacing: 0.1rem;
+    color: hsl(210, 22%, 49%);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.price-filter {
+    background: hsl(210, 22%, 49%);
+    color: hsl(210, 22%, 49%);
+}
+.about-page {
+    padding: 5rem 0;
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-text {
+    line-height: 2;
+    max-width: 45em;
+    margin: 0 auto;
+    margin-top: 2rem
+}
+
+.title h2 {
+    display: flex;
+    letter-spacing: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.about-text {
+    line-height: 2;
+    max-width: 45em;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
+    .product-icons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        display: flex;
+        transition: all 0.3s linear;
+    }
+
+
+.product-container:hover .product-icons{
+    opacity: 1;
+}
+.fa-searchfas:hover {
+    font-weight: 900;
+}
+.product-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    background: hsl(21, 62%, 45%);
+    color:#fff;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-size: 1rem;
+    border-color: transparent;
+    margin: 0 0.5rem;
+}

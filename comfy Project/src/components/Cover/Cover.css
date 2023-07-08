@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.hero {
+    min-height: 100vh;
+    margin-top: -6rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./cover.jpeg) center/cover;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.text-slanted {
+    font-family: 'Kaushan Script', cursive;
+}
+.hero h1 {
+    font-size: 5.25rem;
+    letter-spacing: 5px;
+}
+h1{
+    line-height: 1;
+}
+.hero h3 {
+    font-size: 2.75rem;
+    margin: 1.5rem 0;
+}
+h3{
+    font-weight: 400;
+}
+.hero-btn {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;;
+    padding: 0.5rem 0.75rem;
+    display: inline-block;
+    margin-top: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing:0.1rem;
+    border-radius: 0.25rem;
+    transition:  all 0.3s linear;;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.hero-container {
+    width: 90vw;
+    max-width: 1170px;
+}
+
+.hero h3 {
+    font-size: 2.75rem;
+    margin: 1.5rem 0;
+}
